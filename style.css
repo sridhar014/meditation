@@ -1,0 +1,38 @@
+ body {
+    background-image: url(./peace\ budha.jpg);
+    background-repeat: no-repeat ;
+    background-size:contain;
+    /* background-blend-mode:multiply; */
+    background-position: center;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+.container{
+    color: #f0f8ff;
+}
+
+h1, h2 {
+    color: #c0f500;
+    font-weight: 1000;
+}
+
+.breathing-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #065358;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+.breathing-animation {
+    animation: breathe 8s ease-in-out infinite;
+}
+
+@keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+} 
+
+
